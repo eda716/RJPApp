@@ -7,9 +7,7 @@
 </head>
 <body>
     <h1>登録されたユーザー</h1>
-    <table border="1">
-        <tr><th>ユーザー名</th><th>好きな映画</th></tr>
-        <tr><td>${name}</td><td>${movie}</td></tr>
-    </table>
+    <p>ユーザー名: ${name}</p><br>
+    <p>好きな映画: ${movie}</p><br>
 </body>
 </html>
