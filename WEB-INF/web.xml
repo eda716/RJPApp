@@ -9,7 +9,6 @@
         <url-pattern>/gitrjp</url-pattern>
     </servlet-mapping>
 
-    <!-- /registtest → RegistTestServlet -->
     <servlet>
         <servlet-name>movieservlet</servlet-name>
         <servlet-class>MovieServlet</servlet-class>
@@ -19,7 +18,6 @@
         <url-pattern>/movieservlet</url-pattern>
     </servlet-mapping>
 
-    <!-- /registresult → /registresult.jsp -->
     <servlet>
         <servlet-name>result</servlet-name>
         <jsp-file>/result.jsp</jsp-file>
