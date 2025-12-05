@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+        <servlet-name>gitrjp</servlet-name>
+        <jsp-file>/gitrjp.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>gitrjp</servlet-name>
+        <url-pattern>/gitrjp</url-pattern>
+    </servlet-mapping>
+
+    <!-- /registtest → RegistTestServlet -->
+    <servlet>
+        <servlet-name>movieservlet</servlet-name>
+        <servlet-class>MovieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>movieservlet</servlet-name>
+        <url-pattern>/movieservlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- /registresult → /registresult.jsp -->
+    <servlet>
+        <servlet-name>result</servlet-name>
+        <jsp-file>/result.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>result</servlet-name>
+        <url-pattern>/result</url-pattern>
+    </servlet-mapping>
+
+</web-app>
